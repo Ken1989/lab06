@@ -1,0 +1,12 @@
+create table if not exists LAB_USER (
+ID int not null primary key auto_increment,
+NAME varchar(100),
+BIRTHDATE DATE,
+SEX VARCHAR(20),
+ID_NO VARCHAR(18),
+PASSWORD VARCHAR(50),
+PHONE_NUM VARCHAR(11),
+EMAIL VARCHAR(100),
+CREATE_TIME DATE,
+MODIFY_TIME DATE,
+STATUS VARCHAR(1));
